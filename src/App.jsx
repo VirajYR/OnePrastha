@@ -19,7 +19,7 @@ import Disclaimer from "./pages/Disclaimer";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/LuxeEstate">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
