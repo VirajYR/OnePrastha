@@ -1,0 +1,21 @@
+{
+  "name": "LuxeEstate - Premium Real Estate",
+  "short_name": "LuxeEstate", 
+  "description": "Premium real estate website showcasing luxury properties in Delhi NCR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "./android-chrome-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "./android-chrome-512x512.svg", 
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
