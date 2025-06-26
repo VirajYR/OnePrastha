@@ -1,0 +1,32 @@
+{
+  "categories": [
+    { "id": "all", "name": "All Posts" },
+    { "id": "market", "name": "Market Trends" },
+    { "id": "investment", "name": "Investment" },
+    { "id": "tips", "name": "Buying Tips" },
+    { "id": "legal", "name": "Legal Guide" }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Delhi NCR Real Estate Market Outlook 2024",
+      "excerpt": "Comprehensive analysis of property trends, pricing, and investment opportunities in Delhi NCR region.",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop",
+      "category": "market",
+      "author": "Sarah Johnson",
+      "date": "March 15, 2024",
+      "readTime": "8 min read",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Top 10 Investment Hotspots in Gurgaon",
+      "excerpt": "Discover the most promising areas for real estate investment in Gurgaon with high growth potential.",
+      "image": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=600&h=400&fit=crop",
+      "category": "investment",
+      "author": "Michael Chen",
+      "date": "March 10, 2024",
+      "readTime": "6 min read"
+    }
+  ]
+}

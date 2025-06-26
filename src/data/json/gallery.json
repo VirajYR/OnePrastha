@@ -1,0 +1,25 @@
+{
+  "categories": [
+    { "id": "all", "name": "All Projects", "count": 50 },
+    { "id": "villas", "name": "Luxury Villas", "count": 15 },
+    { "id": "apartments", "name": "Premium Apartments", "count": 20 },
+    { "id": "commercial", "name": "Commercial", "count": 10 },
+    { "id": "penthouses", "name": "Penthouses", "count": 5 }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "Modern Villa Architecture",
+      "category": "villas",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop",
+      "location": "DLF Phase 1, Gurgaon"
+    },
+    {
+      "id": 2,
+      "title": "Luxury Apartment Complex",
+      "category": "apartments",
+      "image": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=600&h=400&fit=crop",
+      "location": "Sector 62, Noida"
+    }
+  ]
+}

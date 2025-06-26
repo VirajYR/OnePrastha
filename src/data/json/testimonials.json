@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Gupta",
+    "role": "Tech Executive",
+    "company": "Microsoft India",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "content": "LuxeEstate made finding our dream home in Gurgaon effortless. Their attention to detail and professional service exceeded our expectations. The entire process was smooth and transparent.",
+    "rating": 5,
+    "location": "DLF Phase 2, Gurgaon",
+    "propertyType": "4 BHK Villa"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "role": "Investment Banker",
+    "company": "Goldman Sachs",
+    "image": "https://images.unsplash.com/photo-1494790108755-2616b612e0af?w=150&h=150&fit=crop&crop=face",
+    "content": "Exceptional service! The team helped us find the perfect penthouse in South Delhi. Their market knowledge and negotiation skills saved us both time and money.",
+    "rating": 5,
+    "location": "Greater Kailash, Delhi",
+    "propertyType": "3 BHK Penthouse"
+  },
+  {
+    "id": 3,
+    "name": "Amit Patel",
+    "role": "Entrepreneur",
+    "company": "Startup Founder",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "content": "Professional, reliable, and incredibly knowledgeable. LuxeEstate helped us secure an amazing apartment in Noida with excellent investment potential.",
+    "rating": 5,
+    "location": "Sector 62, Noida",
+    "propertyType": "2 BHK Apartment"
+  },
+  {
+    "id": 4,
+    "name": "Neha Singh",
+    "role": "Doctor",
+    "company": "AIIMS Delhi",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "content": "The team's dedication to understanding our needs was remarkable. They found us the perfect family home in Faridabad that ticked all our boxes.",
+    "rating": 5,
+    "location": "Sector 21, Faridabad",
+    "propertyType": "Independent House"
+  }
+]

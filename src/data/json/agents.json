@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Sharma",
+    "role": "Senior Property Consultant",
+    "image": "https://images.unsplash.com/photo-1494790108755-2616b612e0af?w=150&h=150&fit=crop&crop=face",
+    "phone": "+91 98765 43210",
+    "email": "priya@luxeestate.com",
+    "experience": "8 Years",
+    "specialties": ["Luxury Villas", "Commercial Properties"]
+  },
+  {
+    "id": 2,
+    "name": "Rahul Gupta",
+    "role": "Property Advisor",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "phone": "+91 87654 43210",
+    "email": "rahul@luxeestate.com",
+    "experience": "6 Years",
+    "specialties": ["Apartments", "Investment Properties"]
+  },
+  {
+    "id": 3,
+    "name": "Anjali Singh",
+    "role": "Real Estate Specialist",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "phone": "+91 76543 43210",
+    "email": "anjali@luxeestate.com",
+    "experience": "5 Years",
+    "specialties": ["First-time Buyers", "Rentals"]
+  }
+]

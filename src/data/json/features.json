@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "🏆",
+    "title": "Premium Quality",
+    "description": "Hand-picked luxury properties that meet our highest standards of excellence and sophistication.",
+    "gradient": "from-yellow-400 to-orange-500"
+  },
+  {
+    "icon": "🎯",
+    "title": "Expert Service",
+    "description": "Professional real estate consultants dedicated to finding your perfect property match.",
+    "gradient": "from-blue-500 to-purple-600"
+  },
+  {
+    "icon": "💎",
+    "title": "Exclusive Listings",
+    "description": "Access to exclusive properties not available anywhere else in the market.",
+    "gradient": "from-purple-500 to-pink-600"
+  }
+]

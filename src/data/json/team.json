@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "role": "CEO & Founder",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
+    "bio": "15+ years in luxury real estate with a passion for connecting clients with their dream homes.",
+    "phone": "+91 9999-123-456",
+    "email": "sarah@luxeestate.com",
+    "specialties": ["Luxury Homes", "Investment Properties", "Market Analysis"]
+  },
+  {
+    "name": "Michael Chen",
+    "role": "Senior Property Consultant",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+    "bio": "Expert in commercial and residential properties with extensive market knowledge.",
+    "phone": "+91 9999-123-457",
+    "email": "michael@luxeestate.com",
+    "specialties": ["Commercial Properties", "Residential Sales", "Client Relations"]
+  },
+  {
+    "name": "Emily Rodriguez",
+    "role": "Marketing Director",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+    "bio": "Creative marketing strategist specializing in luxury real estate branding.",
+    "phone": "+91 9999-123-458",
+    "email": "emily@luxeestate.com",
+    "specialties": ["Digital Marketing", "Property Photography", "Brand Strategy"]
+  }
+]

@@ -1,0 +1,461 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury Villa in DLF Phase 1",
+    "location": "DLF Phase 1, Gurgaon",
+    "price": "₹8.5 Crores",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=800&fit=crop&crop=center",
+    "features": ["Private Pool", "Garden", "Premium Location", "Gated Community"],
+    "type": "villa",
+    "area": "4,200 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "parking": "2 Cars",
+    "facing": "North",
+    "floor": "Ground + 2",
+    "age": "Ready to Move",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+    ],
+    "description": "Experience luxury living at its finest in this stunning 4 BHK villa located in the prestigious DLF Phase 1. This meticulously designed home features spacious rooms, premium finishes, and a private swimming pool set amidst beautifully landscaped gardens.\n\nThe villa boasts modern amenities including a modular kitchen, marble flooring, and smart home automation. Located in one of Gurgaon's most sought-after neighborhoods, it offers easy access to top schools, hospitals, and shopping centers.",
+    "agent": {
+      "name": "Priya Sharma",
+      "phone": "+91 98765 43210",
+      "email": "priya@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1494790108755-2616b612e0af?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Swimming Pool", "Gym", "Clubhouse", "Security", "Power Backup", "Lift"],
+    "status": "Ready to Move",
+    "furnished": "Semi-Furnished",
+    "plotArea": "250 sq yards",
+    "possession": "Immediate",
+    "rera": "RERA123456789",
+    "originalPrice": null,
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in DLF Phase 1, Gurgaon",
+      "Vastu compliant design",
+      "Premium fittings and fixtures",
+      "24/7 power backup and security",
+      "Excellent connectivity"
+    ],
+    "nearbyPlaces": [
+      { "name": "Metro Station", "distance": "1.5 km", "type": "Transport" },
+      { "name": "Shopping Mall", "distance": "2.0 km", "type": "Shopping" },
+      { "name": "Hospital", "distance": "1.8 km", "type": "Healthcare" },
+      { "name": "School", "distance": "1.2 km", "type": "Education" },
+      { "name": "Business District", "distance": "3.5 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Modern Penthouse in Noida",
+    "location": "Sector 62, Noida",
+    "price": "₹2.8 Crores",
+    "image": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1200&h=800&fit=crop&crop=center",
+    "features": ["High-rise View", "Metro Connectivity", "Modern Amenities", "Balcony"],
+    "type": "apartment",
+    "area": "2,100 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": "2 Cars",
+    "facing": "East",
+    "floor": "15th of 25",
+    "age": "2 Years Old",
+    "images": [
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
+    ],
+    "description": "Modern living redefined in this elegant 3 BHK apartment in Sector 62, Noida. Featuring contemporary design, premium fixtures, and panoramic city views from the 15th floor. Perfect for professionals working in the IT corridor with excellent metro connectivity.",
+    "agent": {
+      "name": "Rahul Gupta",
+      "phone": "+91 87654 32109",
+      "email": "rahul@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Gym", "Swimming Pool", "Clubhouse", "Metro Connectivity", "Shopping Mall", "Park"],
+    "status": "Ready to Move",
+    "furnished": "Unfurnished",
+    "plotArea": "N/A",
+    "possession": "Immediate",
+    "rera": "RERA223456789",
+    "originalPrice": "₹3.2 Crores",
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Sector 62, Noida",
+      "High-rise panoramic views",
+      "Premium modern fittings",
+      "24/7 security and power backup",
+      "Metro connectivity"
+    ],
+    "nearbyPlaces": [
+      { "name": "Noida City Centre Metro", "distance": "0.8 km", "type": "Transport" },
+      { "name": "DLF Mall of India", "distance": "1.5 km", "type": "Shopping" },
+      { "name": "Fortis Hospital", "distance": "2.2 km", "type": "Healthcare" },
+      { "name": "Delhi Public School", "distance": "1.0 km", "type": "Education" },
+      { "name": "Sector 62 IT Hub", "distance": "0.5 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Independent House in Faridabad",
+    "location": "Sector 21, Faridabad",
+    "price": "₹3.2 Crores",
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&h=800&fit=crop&crop=center",
+    "features": ["Independent House", "Parking", "Family Friendly", "Near Schools"],
+    "type": "house",
+    "area": "3,100 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "parking": "2 Cars",
+    "facing": "North-East",
+    "floor": "Ground + 1",
+    "age": "5 Years Old",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+    ],
+    "description": "Spacious independent house perfect for families, featuring modern amenities and ample parking space. Located in a peaceful residential area with excellent connectivity to major highways and commercial centers.",
+    "agent": {
+      "name": "Vikram Mehta",
+      "phone": "+91 65432 10987",
+      "email": "vikram@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Garden", "Garage", "Security", "Power Backup", "Water Storage", "Servant Quarter"],
+    "status": "Ready to Move",
+    "furnished": "Semi-Furnished",
+    "plotArea": "200 sq yards",
+    "possession": "Immediate",
+    "rera": "RERA323456789",
+    "originalPrice": null,
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Sector 21, Faridabad",
+      "Independent house with privacy",
+      "Family-friendly neighborhood",
+      "Excellent highway connectivity",
+      "Near top schools and hospitals"
+    ],
+    "nearbyPlaces": [
+      { "name": "Faridabad Metro Station", "distance": "2.5 km", "type": "Transport" },
+      { "name": "Crown Plaza Mall", "distance": "1.8 km", "type": "Shopping" },
+      { "name": "Sarvodaya Hospital", "distance": "1.5 km", "type": "Healthcare" },
+      { "name": "Modern Public School", "distance": "0.8 km", "type": "Education" },
+      { "name": "BPTP Park", "distance": "2.0 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Luxury Flat in Greater Kailash",
+    "location": "Greater Kailash, New Delhi",
+    "price": "₹12 Crores",
+    "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&h=800&fit=crop&crop=center",
+    "features": ["Central Location", "Premium Finishes", "Terrace Garden", "Parking"],
+    "type": "apartment",
+    "area": "3,800 sq ft",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "parking": "3 Cars",
+    "facing": "South",
+    "floor": "Top Floor",
+    "age": "Ready to Move",
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+    ],
+    "description": "Luxurious penthouse in the heart of South Delhi with panoramic city views and premium amenities. This exclusive 5 BHK flat offers sophisticated living with a private terrace garden and top-tier finishes throughout.",
+    "agent": {
+      "name": "Anjali Singh",
+      "phone": "+91 76543 21098",
+      "email": "anjali@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Terrace Garden", "Private Lift", "Jacuzzi", "Home Theater", "Wine Cellar", "Gym"],
+    "status": "Ready to Move",
+    "furnished": "Luxury Furnished",
+    "plotArea": "N/A",
+    "possession": "Immediate",
+    "rera": "RERA423456789",
+    "originalPrice": "₹15 Crores",
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Greater Kailash, New Delhi",
+      "Panoramic city views from penthouse",
+      "Private terrace garden",
+      "Ultra-luxury finishes",
+      "Heart of South Delhi"
+    ],
+    "nearbyPlaces": [
+      { "name": "Kailash Colony Metro", "distance": "0.5 km", "type": "Transport" },
+      { "name": "Select City Walk Mall", "distance": "1.2 km", "type": "Shopping" },
+      { "name": "Max Hospital", "distance": "1.0 km", "type": "Healthcare" },
+      { "name": "Modern School", "distance": "0.8 km", "type": "Education" },
+      { "name": "Nehru Place", "distance": "2.5 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Modern Villa in Dwarka",
+    "location": "Dwarka Sector 12, New Delhi",
+    "price": "₹4.5 Crores",
+    "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&h=800&fit=crop&crop=center",
+    "features": ["Metro Access", "Shopping Complex", "Modern Design", "Security"],
+    "type": "villa",
+    "area": "2,800 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "parking": "2 Cars",
+    "facing": "West",
+    "floor": "Ground + 1",
+    "age": "1 Year Old",
+    "images": [
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+    ],
+    "description": "Contemporary 4 BHK villa in Dwarka with excellent connectivity and modern amenities. Perfect for families seeking a balance of modern living and traditional values in West Delhi.",
+    "agent": {
+      "name": "Sunita Yadav",
+      "phone": "+91 54321 09876",
+      "email": "sunita@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1494790108755-2616b612e0af?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Metro Station", "Shopping Mall", "Hospital", "School", "Park", "Gym"],
+    "status": "Ready to Move",
+    "furnished": "Semi-Furnished",
+    "plotArea": "180 sq yards",
+    "possession": "Immediate",
+    "rera": "RERA523456789",
+    "originalPrice": null,
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Dwarka Sector 12, New Delhi",
+      "Excellent metro connectivity",
+      "Modern villa design",
+      "Family-friendly neighborhood",
+      "Shopping and amenities nearby"
+    ],
+    "nearbyPlaces": [
+      { "name": "Dwarka Metro Station", "distance": "1.0 km", "type": "Transport" },
+      { "name": "City Centre Mall", "distance": "1.5 km", "type": "Shopping" },
+      { "name": "Venkateshwar Hospital", "distance": "2.0 km", "type": "Healthcare" },
+      { "name": "Delhi Public School", "distance": "0.5 km", "type": "Education" },
+      { "name": "Dwarka Business District", "distance": "2.5 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Serviced Apartment in Cyber City",
+    "location": "Cyber City, Gurgaon",
+    "price": "₹1.8 Crores",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&h=800&fit=crop&crop=center",
+    "features": ["IT Hub Location", "Modern Amenities", "Corporate Ready", "High ROI"],
+    "type": "apartment",
+    "area": "1,400 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "parking": "1 Car",
+    "facing": "North",
+    "floor": "12th of 20",
+    "age": "3 Years Old",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
+    ],
+    "description": "Premium serviced apartment in the heart of Cyber City, perfect for IT professionals and corporate executives. Features modern amenities and excellent connectivity to major business hubs.",
+    "agent": {
+      "name": "Deepak Kumar",
+      "phone": "+91 43210 98765",
+      "email": "deepak@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Business Center", "Gym", "Swimming Pool", "Cafeteria", "Concierge", "Housekeeping"],
+    "status": "Ready to Move",
+    "furnished": "Fully Furnished",
+    "plotArea": "N/A",
+    "possession": "Immediate",
+    "rera": "RERA623456789",
+    "originalPrice": "₹2.2 Crores",
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Cyber City, Gurgaon",
+      "Corporate-ready serviced apartment",
+      "High ROI potential",
+      "IT hub connectivity",
+      "Premium business amenities"
+    ],
+    "nearbyPlaces": [
+      { "name": "Cyber Hub Metro", "distance": "0.3 km", "type": "Transport" },
+      { "name": "Cyber Hub Mall", "distance": "0.5 km", "type": "Shopping" },
+      { "name": "Artemis Hospital", "distance": "1.5 km", "type": "Healthcare" },
+      { "name": "The Heritage School", "distance": "1.0 km", "type": "Education" },
+      { "name": "DLF Cyber City", "distance": "0.2 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Farmhouse in Chattarpur",
+    "location": "Chattarpur, New Delhi",
+    "price": "₹6.8 Crores",
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=800&fit=crop&crop=center",
+    "features": ["Large Plot", "Swimming Pool", "Farmhouse Style", "Privacy"],
+    "type": "villa",
+    "area": "8,000 sq ft",
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "parking": "4 Cars",
+    "facing": "East",
+    "floor": "Ground + 1",
+    "age": "8 Years Old",
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+    ],
+    "description": "Expansive farmhouse offering luxury living with privacy and tranquility. Perfect for those seeking a retreat from city life while maintaining easy access to Delhi's commercial centers.",
+    "agent": {
+      "name": "Meera Kapoor",
+      "phone": "+91 32109 87654",
+      "email": "meera@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Swimming Pool", "Garden", "Servant Quarters", "Security", "Generator", "Bore Well"],
+    "status": "Ready to Move",
+    "furnished": "Semi-Furnished",
+    "plotArea": "2000 sq yards",
+    "possession": "Immediate",
+    "rera": "RERA723456789",
+    "originalPrice": null,
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Chattarpur, New Delhi",
+      "Expansive farmhouse with privacy",
+      "Large plot with swimming pool",
+      "Luxury living in natural setting",
+      "Easy access to South Delhi"
+    ],
+    "nearbyPlaces": [
+      { "name": "Chhatarpur Metro Station", "distance": "3.0 km", "type": "Transport" },
+      { "name": "DLF Malls", "distance": "4.0 km", "type": "Shopping" },
+      { "name": "Max Hospital", "distance": "3.5 km", "type": "Healthcare" },
+      { "name": "DPS School", "distance": "2.5 km", "type": "Education" },
+      { "name": "Gurgaon Business District", "distance": "5.0 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Builder Floor in Vasant Kunj",
+    "location": "Vasant Kunj, New Delhi",
+    "price": "₹2.2 Crores",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop&crop=center",
+    "features": ["Prime Location", "Well Connected", "Peaceful Area", "Investment Potential"],
+    "type": "house",
+    "area": "2,000 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": "2 Cars",
+    "facing": "South",
+    "floor": "Ground + 2",
+    "age": "4 Years Old",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
+    ],
+    "description": "Well-designed builder floor in the prestigious Vasant Kunj area. Offers excellent connectivity to business districts and airports while maintaining a peaceful residential environment.",
+    "agent": {
+      "name": "Kiran Sharma",
+      "phone": "+91 21098 76543",
+      "email": "kiran@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Parking", "Power Backup", "Water Storage", "Security", "Garden", "Terrace"],
+    "status": "Ready to Move",
+    "furnished": "Unfurnished",
+    "plotArea": "120 sq yards",
+    "possession": "Immediate",
+    "rera": "RERA823456789",
+    "originalPrice": null,
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Vasant Kunj, New Delhi",
+      "Excellent connectivity to airports",
+      "Peaceful residential area",
+      "Investment potential",
+      "Well-connected to business districts"
+    ],
+    "nearbyPlaces": [
+      { "name": "Vasant Kunj Metro Station", "distance": "1.8 km", "type": "Transport" },
+      { "name": "DLF Malls", "distance": "2.5 km", "type": "Shopping" },
+      { "name": "Fortis Hospital", "distance": "2.0 km", "type": "Healthcare" },
+      { "name": "Delhi Public School", "distance": "1.0 km", "type": "Education" },
+      { "name": "Aerocity Business District", "distance": "3.0 km", "type": "Business" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Studio Apartment in Connaught Place",
+    "location": "Connaught Place, New Delhi",
+    "price": "₹95 Lakhs",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&h=800&fit=crop&crop=center",
+    "features": ["Central Delhi", "Commercial Hub", "Metro Access", "High Rental Yield"],
+    "type": "apartment",
+    "area": "600 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": "0 Cars",
+    "facing": "North",
+    "floor": "5th of 8",
+    "age": "15 Years Old",
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop"
+    ],
+    "description": "Compact studio apartment in the heart of Delhi's business district. Perfect for young professionals or as an investment property with high rental yields and excellent appreciation potential.",
+    "agent": {
+      "name": "Arjun Patel",
+      "phone": "+91 10987 65432",
+      "email": "arjun@luxeestate.com",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+    },
+    "amenities": ["Metro Station", "Shopping Center", "Restaurants", "Banks", "Cafes", "Business Centers"],
+    "status": "Ready to Move",
+    "furnished": "Furnished",
+    "plotArea": "N/A",
+    "possession": "Immediate",
+    "rera": "RERA923456789",
+    "originalPrice": "₹1.2 Crores",
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&crop=center",
+    "virtualTour": "https://www.youtube.com/embed/sM427iZRWGE",
+    "highlights": [
+      "Prime location in Connaught Place, New Delhi",
+      "Heart of Delhi's business district",
+      "High rental yield potential",
+      "Perfect for young professionals",
+      "Excellent metro connectivity"
+    ],
+    "nearbyPlaces": [
+      { "name": "Rajiv Chowk Metro", "distance": "0.2 km", "type": "Transport" },
+      { "name": "Connaught Place Market", "distance": "0.1 km", "type": "Shopping" },
+      { "name": "Sir Ganga Ram Hospital", "distance": "2.0 km", "type": "Healthcare" },
+      { "name": "Modern School", "distance": "1.8 km", "type": "Education" },
+      { "name": "Connaught Place Business District", "distance": "0.1 km", "type": "Business" }
+    ]
+  }
+]
