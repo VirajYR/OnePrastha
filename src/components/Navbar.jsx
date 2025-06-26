@@ -19,7 +19,6 @@ const Navbar = () => {
   const isActivePath = (path) => location.pathname === path;
 
   const handleNavClick = () => {
-    // Scroll to top when navigating to a new page
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

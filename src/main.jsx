@@ -4,16 +4,13 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
-// Initialize smooth scrolling
 if (typeof window !== 'undefined') {
-  // Smooth scrolling behavior
   const style = document.createElement('style');
   style.textContent = `
     html {
       scroll-behavior: smooth;
     }
     
-    /* Custom scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
     }

@@ -225,7 +225,6 @@ The villa boasts modern amenities including a modular kitchen, marble flooring, 
       scroll-behavior: smooth;
     }
     
-    /* Custom scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
     }
