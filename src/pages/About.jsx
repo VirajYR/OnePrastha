@@ -33,20 +33,20 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section id="about-hero" className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20">
+      <section id="about-hero" className="bg-gradient-to-br from-amber-600 via-yellow-700 to-amber-800 text-white py-20">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <motion.h1
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-6xl font-bold mb-6"
+            className="text-5xl md:text-6xl font-bold mb-6 font-serif"
           >
-            About LuxeEstate
+            About OnePrastha
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed text-amber-50"
           >
             Your trusted partner in finding exceptional properties. We combine expertise, 
             innovation, and personalized service to deliver unmatched real estate experiences.
@@ -65,7 +65,7 @@ const About = () => {
             >
               <h2 className="text-4xl font-bold mb-6 text-gray-800">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2008, LuxeEstate began with a simple mission: to revolutionize 
+                Founded in 2008, OnePrastha began with a simple mission: to revolutionize 
                 the real estate experience by putting our clients first. What started as a 
                 small boutique agency has grown into one of the most trusted names in luxury real estate.
               </p>
@@ -74,11 +74,11 @@ const About = () => {
                 not a stressful ordeal. Our team of dedicated professionals combines deep market 
                 knowledge with cutting-edge technology to deliver results that exceed expectations.
               </p>
-              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
-                <p className="text-blue-800 font-semibold italic">
+              <div className="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-600">
+                <p className="text-amber-800 font-semibold italic">
                   "Our success is measured not by the properties we sell, but by the dreams we help fulfill."
                 </p>
-                <p className="text-blue-600 mt-2">- Sarah Johnson, CEO & Founder</p>
+                <p className="text-amber-600 mt-2">- Sarah Johnson, CEO & Founder</p>
               </div>
             </motion.div>
             <motion.div
@@ -93,7 +93,7 @@ const About = () => {
                 className="rounded-2xl shadow-2xl"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
-                <div className="text-3xl font-bold text-blue-600">15+</div>
+                <div className="text-3xl font-bold text-amber-600">15+</div>
                 <div className="text-gray-600">Years of Excellence</div>
               </div>
             </motion.div>
@@ -158,7 +158,7 @@ const About = () => {
                   className="w-32 h-32 rounded-full mx-auto mb-6 object-cover shadow-lg"
                 />
                 <h3 className="text-xl font-bold mb-2 text-gray-800">{member.name}</h3>
-                <p className="text-blue-600 font-semibold mb-4">{member.role}</p>
+                <p className="text-amber-600 font-semibold mb-4">{member.role}</p>
                 <p className="text-gray-600 leading-relaxed">{member.bio}</p>
               </motion.div>
             ))}
@@ -167,7 +167,7 @@ const About = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-20 px-4 bg-gradient-to-r from-amber-600 to-yellow-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -194,7 +194,7 @@ const About = () => {
           >
             <Link
               to="/contact"
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
+              className="bg-white text-amber-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
             >
               Contact Us Today
             </Link>

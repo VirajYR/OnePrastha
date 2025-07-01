@@ -20,7 +20,7 @@ const Testimonials = () => {
       role: "Tech Executive",
       company: "Microsoft India",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      content: "LuxeEstate made finding our dream home in Gurgaon effortless. Their attention to detail and professional service exceeded our expectations. The entire process was smooth and transparent.",
+      content: "OnePrastha made finding our dream home in Gurgaon effortless. Their attention to detail and professional service exceeded our expectations. The entire process was smooth and transparent.",
       rating: 5,
       property: "DLF Phase 1 Villa",
       location: "Gurgaon"
@@ -42,7 +42,7 @@ const Testimonials = () => {
       role: "Entrepreneur",
       company: "StartupXYZ",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      content: "Professional, knowledgeable, and trustworthy. LuxeEstate helped us secure an excellent property in Noida with great investment potential. Their market insights were invaluable.",
+      content: "Professional, knowledgeable, and trustworthy. OnePrastha helped us secure an excellent property in Noida with great investment potential. Their market insights were invaluable.",
       rating: 5,
       property: "Sector 62 Apartment",
       location: "Noida"
@@ -64,7 +64,7 @@ const Testimonials = () => {
       role: "Finance Director",
       company: "HDFC Bank",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-      content: "LuxeEstate's premium service and attention to client needs is unmatched. They helped us find the perfect family home with all the amenities we desired.",
+      content: "OnePrastha's premium service and attention to client needs is unmatched. They helped us find the perfect family home with all the amenities we desired.",
       rating: 5,
       property: "Faridabad Independent House",
       location: "Faridabad"
@@ -90,16 +90,16 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-amber-50">
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-600/10 to-yellow-600/10"></div>
         <div className="relative max-w-6xl mx-auto px-4 text-center">
           <motion.h1
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-serif font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+            className="text-5xl md:text-7xl font-serif font-bold mb-6 bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent"
           >
             Client Stories
           </motion.h1>
@@ -126,7 +126,7 @@ const Testimonials = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="text-center p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-purple-50 hover:shadow-lg transition-all duration-300"
+                className="text-center p-6 rounded-2xl bg-gradient-to-br from-amber-50 to-yellow-50 hover:shadow-lg transition-all duration-300"
                 data-aos="zoom-in"
                 data-aos-delay={index * 100}
               >
@@ -190,8 +190,8 @@ const Testimonials = () => {
                 </blockquote>
 
                 {/* Property Info */}
-                <div className="bg-blue-50 rounded-xl p-4 mb-6 text-center">
-                  <p className="text-sm text-blue-600 font-semibold">Property Purchased</p>
+                <div className="bg-amber-50 rounded-xl p-4 mb-6 text-center">
+                  <p className="text-sm text-amber-600 font-semibold">Property Purchased</p>
                   <p className="text-gray-800 font-medium">{testimonial.property}</p>
                   <p className="text-gray-600 text-sm">{testimonial.location}</p>
                 </div>
@@ -205,7 +205,7 @@ const Testimonials = () => {
                   />
                   <div className="text-center">
                     <h4 className="font-semibold text-gray-800 text-lg">{testimonial.name}</h4>
-                    <p className="text-blue-600 font-medium text-sm">{testimonial.role}</p>
+                    <p className="text-amber-600 font-medium text-sm">{testimonial.role}</p>
                     <p className="text-gray-500 text-sm">{testimonial.company}</p>
                   </div>
                 </div>
@@ -256,7 +256,7 @@ const Testimonials = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-amber-600 to-yellow-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
@@ -276,7 +276,7 @@ const Testimonials = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Join hundreds of satisfied clients who found their dream properties with LuxeEstate.
+            Join hundreds of satisfied clients who found their dream properties with OnePrastha.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -289,7 +289,7 @@ const Testimonials = () => {
           >
             <Link
               to="/contact"
-              className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 inline-block"
+              className="bg-white text-amber-600 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 inline-block"
             >
               <motion.div
                 whileHover={{ scale: 1.05 }}
@@ -300,7 +300,7 @@ const Testimonials = () => {
             </Link>
             <Link
               to="/contact"
-              className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300 inline-block"
+              className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-amber-600 transition-all duration-300 inline-block"
             >
               <motion.div
                 whileHover={{ scale: 1.05 }}

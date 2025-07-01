@@ -1,11 +1,11 @@
 {
-  "name": "LuxeEstate - Premium Real Estate",
-  "short_name": "LuxeEstate", 
+  "name": "OnePrastha - Premium Real Estate",
+  "short_name": "OnePrastha", 
   "description": "Premium real estate website showcasing luxury properties in Delhi NCR",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#3B82F6",
+  "background_color": "#F5F4F0",
+  "theme_color": "#B89F76",
   "icons": [
     {
       "src": "./android-chrome-192x192.svg",

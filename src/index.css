@@ -3,36 +3,85 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Premium Base Styles */
 @layer base {
+  :root {
+    --color-background: #F5F4F0;        
+    --color-primary: #B89F76;           
+    --color-secondary: #A59E8C;         
+    --color-text-primary: #2E2C2A;      
+    --color-text-secondary: #6F6D68;    
+    --color-hover: #D6C2A6;             
+    --color-white: #FFFFFF;             
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   html {
-    font-family: 'Inter', system-ui, sans-serif;
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply antialiased;
-    font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', Georgia, serif;
-    @apply tracking-tight;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: var(--color-text-primary);
   }
 }
 
-/* Premium Components */
 @layer components {
-  .glass-effect {
-    @apply bg-white bg-opacity-20 backdrop-blur-lg border border-white border-opacity-30;
+  .btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    transform: scale(1);
   }
   
-  .gradient-text {
-    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+  .btn-primary:hover {
+    background-color: var(--color-hover);
+    transform: scale(1.05);
   }
-  
+
+  .card-elegant {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .card-elegant:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-text-secondary);
+  }
+
   .hover-lift {
-    @apply transition-all duration-500 transform hover:scale-105 hover:shadow-2xl;
+    transition: all 0.3s ease;
+    transform: translateY(0);
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-5px);
   }
 }
 
