@@ -8,14 +8,14 @@
     <meta name="keywords" content="OnePrastha, real estate, Delhi NCR, luxury properties, Gurgaon, Noida, premium homes, property investment" />
     
     <!-- Favicon and Icons -->
-    <link rel="icon" type="image/svg+xml" href="/OnePrastha/assets/favicon-9daa0267.svg" />
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/OnePrastha/assets/favicon-16x16-18700589.svg" />
-    <link rel="apple-touch-icon" href="/OnePrastha/assets/apple-touch-icon-f3534bf6.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="./assets/favicon.svg" />
+    <link rel="apple-touch-icon" href="./assets/favicon.svg" />
     <link rel="manifest" href="data:application/manifest+json;base64,ew0KICAibmFtZSI6ICJMdXhlRXN0YXRlIC0gUHJlbWl1bSBSZWFsIEVzdGF0ZSIsDQogICJzaG9ydF9uYW1lIjogIkx1eGVFc3RhdGUiLCANCiAgImRlc2NyaXB0aW9uIjogIlByZW1pdW0gcmVhbCBlc3RhdGUgd2Vic2l0ZSBzaG93Y2FzaW5nIGx1eHVyeSBwcm9wZXJ0aWVzIGluIERlbGhpIE5DUiIsDQogICJzdGFydF91cmwiOiAiLi8iLA0KICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwNCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZmZmZiIsDQogICJ0aGVtZV9jb2xvciI6ICIjM0I4MkY2IiwNCiAgImljb25zIjogWw0KICAgIHsNCiAgICAgICJzcmMiOiAiLi9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnN2ZyIsDQogICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsDQogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIg0KICAgIH0sDQogICAgew0KICAgICAgInNyYyI6ICIuL2FuZHJvaWQtY2hyb21lLTUxMng1MTIuc3ZnIiwgDQogICAgICAic2l6ZXMiOiAiNTEyeDUxMiIsDQogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIg0KICAgIH0NCiAgXQ0KfQ0K" />
     
     <!-- Theme Colors -->
-    <meta name="theme-color" content="#B89F76" />
-    <meta name="msapplication-TileColor" content="#B89F76" />
+    <meta name="theme-color" content="#F59E0B" />
+    <meta name="msapplication-TileColor" content="#F59E0B" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -30,6 +30,20 @@
     <meta property="twitter:title" content="OnePrastha - Premium Real Estate in Delhi NCR" />
     <meta property="twitter:description" content="OnePrastha - Your trusted partner in finding exceptional properties in Delhi NCR. Premium homes, luxury apartments, and investment opportunities." />
     <meta property="twitter:image" content="./android-chrome-512x512.svg" />
+    
+    <!-- Single Page App GitHub Pages routing fix -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     
     <!-- Premium Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,12 +99,12 @@
       }
       
       ::-webkit-scrollbar-thumb {
-        background: #B89F76;
+        background: #F59E0B;
         border-radius: 4px;
       }
       
       ::-webkit-scrollbar-thumb:hover {
-        background: #A59E8C;
+        background: #D97706;
       }
     </style>
     <script type="module" crossorigin src="/OnePrastha/assets/index-443ec075.js"></script>

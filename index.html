@@ -8,14 +8,14 @@
     <meta name="keywords" content="OnePrastha, real estate, Delhi NCR, luxury properties, Gurgaon, Noida, premium homes, property investment" />
     
     <!-- Favicon and Icons -->
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="./favicon-16x16.svg" />
-    <link rel="apple-touch-icon" href="./apple-touch-icon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="./assets/favicon.svg" />
+    <link rel="apple-touch-icon" href="./assets/favicon.svg" />
     <link rel="manifest" href="./site.webmanifest" />
     
     <!-- Theme Colors -->
-    <meta name="theme-color" content="#B89F76" />
-    <meta name="msapplication-TileColor" content="#B89F76" />
+    <meta name="theme-color" content="#F59E0B" />
+    <meta name="msapplication-TileColor" content="#F59E0B" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -30,6 +30,20 @@
     <meta property="twitter:title" content="OnePrastha - Premium Real Estate in Delhi NCR" />
     <meta property="twitter:description" content="OnePrastha - Your trusted partner in finding exceptional properties in Delhi NCR. Premium homes, luxury apartments, and investment opportunities." />
     <meta property="twitter:image" content="./android-chrome-512x512.svg" />
+    
+    <!-- Single Page App GitHub Pages routing fix -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     
     <!-- Premium Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,12 +99,12 @@
       }
       
       ::-webkit-scrollbar-thumb {
-        background: #B89F76;
+        background: #F59E0B;
         border-radius: 4px;
       }
       
       ::-webkit-scrollbar-thumb:hover {
-        background: #A59E8C;
+        background: #D97706;
       }
     </style>
   </head>
