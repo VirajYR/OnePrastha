@@ -25,7 +25,7 @@ export default function App() {
   }
 
   return (
-    <Router basename="/OnePrastha">
+    <Router basename="/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
