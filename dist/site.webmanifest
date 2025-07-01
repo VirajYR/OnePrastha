@@ -4,16 +4,16 @@
   "description": "Premium real estate website showcasing luxury properties in Delhi NCR",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#F5F4F0",
-  "theme_color": "#B89F76",
+  "background_color": "#000000",
+  "theme_color": "#F59E0B",
   "icons": [
     {
-      "src": "./android-chrome-192x192.svg",
+      "src": "./assets/favicon.svg",
       "sizes": "192x192",
       "type": "image/svg+xml"
     },
     {
-      "src": "./android-chrome-512x512.svg", 
+      "src": "./assets/favicon.svg", 
       "sizes": "512x512",
       "type": "image/svg+xml"
     }
