@@ -5,6 +5,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Note: dist/ is included for GitHub Pages deployment
 build/
 .parcel-cache/
 
